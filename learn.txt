@@ -1,2 +1,3 @@
 How to learn git?
 Creating a new branch is qucik AND simple如何解决多人冲突
+All right
