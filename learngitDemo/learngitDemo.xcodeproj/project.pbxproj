@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A523D52449015973F77D1B3B /* libPods-learngitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 453313911C9525BA36DA1730 /* libPods-learngitDemo.a */; };
 		C78E0BF61E80FCC600041A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C78E0BF51E80FCC600041A1C /* main.m */; };
 		C78E0BF91E80FCC600041A1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78E0BF81E80FCC600041A1C /* AppDelegate.m */; };
 		C78E0BFC1E80FCC600041A1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78E0BFB1E80FCC600041A1C /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		351E4199BB1DC815958A75FE /* Pods-learngitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learngitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learngitDemo/Pods-learngitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		453313911C9525BA36DA1730 /* libPods-learngitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-learngitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78E0BF11E80FCC600041A1C /* learngitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learngitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78E0BF51E80FCC600041A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C78E0BF71E80FCC600041A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		C78E0C181E80FCC600041A1C /* learngitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learngitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78E0C1C1E80FCC600041A1C /* learngitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learngitDemoUITests.m; sourceTree = "<group>"; };
 		C78E0C1E1E80FCC600041A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD75B940D615C159E111954 /* Pods-learngitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learngitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-learngitDemo/Pods-learngitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A523D52449015973F77D1B3B /* libPods-learngitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E0A86B44DFA64C75CE32267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				351E4199BB1DC815958A75FE /* Pods-learngitDemo.debug.xcconfig */,
+				FBD75B940D615C159E111954 /* Pods-learngitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C78E0BE81E80FCC600041A1C = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +101,8 @@
 				C78E0C101E80FCC600041A1C /* learngitDemoTests */,
 				C78E0C1B1E80FCC600041A1C /* learngitDemoUITests */,
 				C78E0BF21E80FCC600041A1C /* Products */,
+				6E0A86B44DFA64C75CE32267 /* Pods */,
+				FD57C14C5D67719B2397C96C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +159,14 @@
 			path = learngitDemoUITests;
 			sourceTree = "<group>";
 		};
+		FD57C14C5D67719B2397C96C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				453313911C9525BA36DA1730 /* libPods-learngitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C78E0C211E80FCC600041A1C /* Build configuration list for PBXNativeTarget "learngitDemo" */;
 			buildPhases = (
+				A7C74C799B7D65365E078B3E /* [CP] Check Pods Manifest.lock */,
 				C78E0BED1E80FCC600041A1C /* Sources */,
 				C78E0BEE1E80FCC600041A1C /* Frameworks */,
 				C78E0BEF1E80FCC600041A1C /* Resources */,
+				E4CDA058E616DD07D01D9F1B /* [CP] Embed Pods Frameworks */,
+				32644FA6C44D901314684CEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +300,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32644FA6C44D901314684CEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learngitDemo/Pods-learngitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C74C799B7D65365E078B3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CDA058E616DD07D01D9F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learngitDemo/Pods-learngitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C78E0BED1E80FCC600041A1C /* Sources */ = {
@@ -427,25 +502,33 @@
 		};
 		C78E0C221E80FCC600041A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351E4199BB1DC815958A75FE /* Pods-learngitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Cappu Company Limited (66NE6EF6HW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 66NE6EF6HW;
 				INFOPLIST_FILE = learngitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cappu.learngitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		C78E0C231E80FCC600041A1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD75B940D615C159E111954 /* Pods-learngitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Cappu Company Limited (66NE6EF6HW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 66NE6EF6HW;
 				INFOPLIST_FILE = learngitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cappu.learngitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -518,6 +601,7 @@
 				C78E0C231E80FCC600041A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C78E0C241E80FCC600041A1C /* Build configuration list for PBXNativeTarget "learngitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +610,7 @@
 				C78E0C261E80FCC600041A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C78E0C271E80FCC600041A1C /* Build configuration list for PBXNativeTarget "learngitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +619,7 @@
 				C78E0C291E80FCC600041A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
