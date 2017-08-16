@@ -238,7 +238,7 @@
 					C78E0BF01E80FCC600041A1C = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 66NE6EF6HW;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C78E0C0C1E80FCC600041A1C = {
 						CreatedOnToolsVersion = 8.2;
@@ -513,7 +513,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cappu.learngitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "8c8d4643-ba2f-46cc-96ff-48f4e8212be2";
+				PROVISIONING_PROFILE_SPECIFIER = learngitDemo;
 			};
 			name = Debug;
 		};
@@ -530,7 +531,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cappu.learngitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "8c8d4643-ba2f-46cc-96ff-48f4e8212be2";
+				PROVISIONING_PROFILE_SPECIFIER = learngitDemo;
 			};
 			name = Release;
 		};
