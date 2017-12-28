@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"这是一个很悲伤的故事");
+    NSLog(@"这是一个非常悲伤的故事");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
